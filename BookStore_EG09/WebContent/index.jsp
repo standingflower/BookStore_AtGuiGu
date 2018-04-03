@@ -8,5 +8,12 @@
 	现在只有一访问index.jsp直接转发BookClientServlet?method=findBook
  --%>
 
+
+<%--
+	修改处
+
+ --%>
+
+
 <jsp:forward page="/client/BookClientServlet?method=findBook"></jsp:forward>
  
